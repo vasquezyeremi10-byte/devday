@@ -1,0 +1,249 @@
+:root {
+  font-family: 'Segoe UI', sans-serif;
+  color: #e7dfd1;
+  background: #171b20;
+  font-synthesis: none;
+  color-scheme: dark;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  min-width: 320px;
+  background: radial-gradient(ellipse at 50% 25%, #282b2c 0%, #171b20 70%);
+}
+.workspace {
+  max-width: 1042px;
+  padding: 30px 40px 20px;
+  margin: auto;
+}
+.masthead,
+.brand,
+.expedition,
+.game-caption,
+.game-footer,
+.controls,
+.page-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.masthead {
+  padding-bottom: 23px;
+  border-bottom: 1px solid #363a3c;
+}
+.brand {
+  gap: 14px;
+}
+.brand-mark {
+  color: #dcb47a;
+  font: 900 24px/1 monospace;
+  border: 2px solid #dcb47a;
+  padding: 5px;
+  letter-spacing: -5px;
+  padding-right: 10px;
+}
+.brand-mark span {
+  color: #f3deac;
+}
+h1 {
+  font-size: 21px;
+  letter-spacing: 5px;
+  margin: 0;
+}
+.brand p {
+  font-size: 9px;
+  letter-spacing: 2.3px;
+  color: #92948f;
+  margin: 5px 0 0;
+}
+.edition,
+.eyebrow,
+.game-caption,
+.game-footer,
+.page-footer {
+  font: 10px/1.5 monospace;
+  letter-spacing: 1px;
+}
+.edition {
+  color: #c6a979;
+  border: 1px solid #4c463c;
+  padding: 7px 10px;
+  background: #292923;
+}
+i {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  margin-right: 7px;
+  background: #d4ac6f;
+  vertical-align: middle;
+}
+.expedition {
+  padding: 24px 0 20px;
+}
+.eyebrow {
+  color: #bc9a69;
+  font-size: 9px;
+}
+h2 {
+  font:
+    normal 36px/1.15 Georgia,
+    serif;
+  margin: 7px 0;
+}
+.expedition p {
+  font-size: 12px;
+  color: #9d9f99;
+  margin: 0;
+}
+button {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+  border: 1px solid #4a4c46;
+  border-radius: 3px;
+  background: #252a2b;
+  color: #d3d0c3;
+  padding: 10px 12px;
+  cursor: pointer;
+  font:
+    12px 'Segoe UI',
+    sans-serif;
+}
+button:hover {
+  border-color: #c7a675;
+  background: #34352f;
+}
+button:focus-visible,
+#game:focus-visible {
+  outline: 2px solid #f2c780;
+  outline-offset: 4px;
+}
+.game-shell {
+  border: 1px solid #4b4840;
+  background: #10151b;
+  box-shadow: 0 20px 50px #0004;
+}
+.game-caption {
+  height: 32px;
+  padding: 0 13px;
+  color: #b8b4a3;
+  background: #252a2c;
+  font-size: 9px;
+}
+.game-caption b,
+.game-footer b {
+  color: #665c4b;
+  margin: 0 7px;
+}
+#game {
+  margin: auto;
+  line-height: 0;
+}
+canvas {
+  display: block;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+.game-footer {
+  padding: 9px 12px;
+  min-height: 33px;
+  font-size: 9px;
+  color: #8f9994;
+  background: #202628;
+  letter-spacing: 0.5px;
+}
+.game-footer i {
+  background: #8baf9e;
+}
+.controls {
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px 0;
+  border-bottom: 1px solid #363a3c;
+  color: #b5b8b2;
+  font-size: 11px;
+}
+.controls > div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.controls > div > span:last-child {
+  margin-left: 5px;
+}
+kbd {
+  font: 10px monospace;
+  color: #dad8ca;
+  padding: 5px 6px;
+  border: 1px solid #555950;
+  border-bottom: 2px solid #555950;
+  border-radius: 3px;
+  background: #2a3031;
+}
+button kbd {
+  font-size: 9px;
+  padding: 1px 4px;
+}
+.controls p {
+  margin: 0;
+  font-size: 10px;
+  line-height: 1.7;
+  color: #8e9692;
+}
+.controls strong {
+  font-weight: normal;
+  color: #c2a67a;
+}
+.mouse-icon {
+  height: 22px;
+  width: 15px;
+  border: 1px solid #a0a79b;
+  border-radius: 6px;
+  position: relative;
+}
+.mouse-icon:after {
+  content: '';
+  height: 6px;
+  border-left: 2px solid #d1ab70;
+  position: absolute;
+  left: 6px;
+  top: 3px;
+}
+.page-footer {
+  color: #767e7c;
+  font-size: 9px;
+  padding-top: 17px;
+}
+@media (max-width: 680px) {
+  .workspace {
+    padding: 20px 12px;
+  }
+  h1 {
+    font-size: 16px;
+    letter-spacing: 3px;
+  }
+  .edition {
+    font-size: 8px;
+    padding: 5px;
+  }
+  h2 {
+    font-size: 29px;
+  }
+  .game-caption > span:last-child,
+  .game-footer > span:last-child {
+    display: none;
+  }
+  .controls {
+    gap: 14px;
+  }
+  .controls p {
+    width: 100%;
+  }
+  .page-footer {
+    font-size: 8px;
+    letter-spacing: 0;
+  }
+}

@@ -1,0 +1,17 @@
+node_modules
+dist
+.tools
+.agents/skills/game-setup-and-config
+.agents/skills/scenes
+.agents/skills/physics-arcade
+.agents/skills/tilemaps
+.agents/skills/cameras
+.agents/skills/input-keyboard-mouse-touch
+.agents/skills/loading-assets
+.agents/skills/scale-and-responsive
+.agents/skills/sprites-and-images
+.agents/skills/v3-to-v4-migration
+.agents/skills/PHASER-LICENSE.md
+package-lock.json
+test-results
+playwright-report
