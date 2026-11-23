@@ -155,6 +155,8 @@ docs/                 Diseño, especificaciones, créditos y QA
 
 ## Recursos y licencia
 
-El código y los recursos no comparten necesariamente la misma licencia. Cada asset de terceros debe conservar su aviso en `public/assets/licenses/` y registrarse en `docs/ASSET_CREDITS.md`.
+El código fuente y la documentación original de DEEPKIN se distribuyen bajo la [licencia MIT](LICENSE), Copyright (c) 2026 THE MINERS CL.
+
+Los recursos no quedan relicenciados automáticamente bajo MIT. Cada asset de terceros conserva su propia licencia y debe mantener su aviso en `public/assets/licenses/` y su registro en `docs/ASSET_CREDITS.md`.
 
 La música del menú fue generada con Suno. Antes de hacer público o distribuir comercialmente el proyecto debe registrarse el plan con que fue creada y conservar evidencia de los derechos de uso correspondientes. El repositorio debe mantenerse privado mientras existan recursos con procedencia o licencia sin verificar.
