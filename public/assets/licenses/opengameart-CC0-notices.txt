@@ -1,0 +1,44 @@
+Avisos de recursos OpenGameArt reutilizados en MINA CERO
+Licencia: Creative Commons Zero 1.0 Universal (CC0-1.0).
+Texto completo: CC0-1.0.txt, descargado del canal oficial de Creative Commons.
+https://creativecommons.org/publicdomain/zero/1.0/
+
+Minery Icons! — thekingphoenix
+https://opengameart.org/content/minery-icons
+Licencia CC0 según la verificación del inventario inicial en docs/ASSET_CREDITS.md.
+Recortes: cuerpo del carro y utilería minera. Sin cambios de licencia.
+
+Various stones and ore/gem veins 16x16 — senmou
+https://opengameart.org/content/various-stones-and-oregem-veins-16x16
+Licencia CC0 en la ficha oficial. Recortes y recoloreos a la paleta MINA CERO.
+
+Treasure hunter game assets — HDST
+https://opengameart.org/content/treasure-hunter-game-assets
+Licencia CC0. Aviso original incluido en treasure-hunter-CC0-readme.txt.
+
+Los sprites V2 de bodeguero, iconos, vías y poses de pala son originales del
+proyecto, no se atribuyen a estos autores ni proceden de sus packs.
+
+Audio de partida (CC0 1.0; ver CC0-1.0.txt).
+Sunset Plains — Yoiyami
+https://opengameart.org/content/sunset-plains
+First Light Particles — Yoiyami
+https://opengameart.org/node/182244
+Ambient Bird Sounds — isaiah658
+https://opengameart.org/content/ambient-bird-sounds
+Bird chirping sounds — syncopika
+https://opengameart.org/content/bird-chirping-sounds
+wind whoosh loop — SketchMan3
+https://opengameart.org/content/wind-whoosh-loop
+Loopable Dungeon Ambience — JaggedStone
+https://opengameart.org/content/loopable-dungeon-ambience
+Beach Ocean Waves — jasinski, publicado por qubodup
+https://opengameart.org/content/beach-ocean-waves
+
+Efectos de acciones (CC0 1.0; ver CC0-1.0.txt).
+Different steps on wood, stone, leaves, gravel and mud — TinyWorlds, sobre pdsounds.org
+https://opengameart.org/content/different-steps-on-wood-stone-leaves-gravel-and-mud
+7 Eating Crunches — Tito con StarNinjas
+https://opengameart.org/content/7-eating-crunches
+Liquid Bottle Drink Set — qubodup
+https://opengameart.org/content/liquid-bottle-drink-set

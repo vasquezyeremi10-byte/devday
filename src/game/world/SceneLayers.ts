@@ -1,4 +1,4 @@
-import type Phaser from 'phaser';
+import Phaser from 'phaser';
 import { DEPTH } from '../config/layers';
 import {
   DECORATIVE_MAPS,
@@ -30,11 +30,23 @@ export function mountAssetLayers(scene: Phaser.Scene): void {
   for (const item of IMAGE_LAYERS) {
     if (item.layer === 'terrain')
       throw new Error('Una imagen decorativa no puede ser terreno');
-    scene.add
-      .image(item.x, item.y, item.key)
+    scene.textures.get(item.key).setFilter(Phaser.Textures.FilterMode.NEAREST);
+    const image = item.repeatWidth
+      ? scene.add.tileSprite(
+          item.x,
+          item.y,
+          item.repeatWidth,
+          item.repeatHeight ?? scene.textures.getFrame(item.key).height,
+          item.key,
+        )
+      : scene.add.image(item.x, item.y, item.key);
+    image
       .setOrigin(0)
-      .setDepth(DEPTH[item.layer])
-      .setScrollFactor(item.scrollFactor ?? 1);
+      .setDepth(DEPTH[item.layer] + (item.order ?? 0))
+      .setScrollFactor(
+        item.scrollFactor ?? 1,
+        item.scrollFactorY ?? item.scrollFactor ?? 1,
+      );
   }
   DECORATIVE_MAPS.forEach((map) => mountDecorativeMap(scene, map));
 }

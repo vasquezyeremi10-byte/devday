@@ -1,0 +1,24 @@
+Footsteps on different surfaces — congusbongus
+https://opengameart.org/content/footsteps-on-different-surfaces
+Adaptación para DEEPKIN de las tomas indicadas abajo. Licencia del paquete:
+Creative Commons Attribution 3.0 Unported (CC BY 3.0).
+Texto de la licencia: CC-BY-3.0.txt
+
+step-dirt-*.ogg y step-leaves-*.ogg
+  Derivados de footstep-grass.wav — swuing (CC BY 3.0)
+  https://freesound.org/people/swuing/sounds/38874/
+step-stone-*.ogg
+  Derivados de footstep-concrete.wav — swuing (CC BY 3.0)
+  https://freesound.org/people/swuing/sounds/38873/
+step-metal-*.ogg
+  Derivados de fboots on aluminum ladder 01 — Eelke (CC BY 3.0)
+  https://freesound.org/people/Eelke/sounds/462598/
+step-wood-*.ogg
+  Derivados de footstep-wood.wav — swuing (CC BY 3.0)
+  https://freesound.org/people/swuing/sounds/38876/
+step-gravel-*.ogg
+  Derivados de Gravel Footsteps — Ali_6868 (CC0 1.0)
+  https://freesound.org/people/Ali_6868/packs/21608/
+
+Se seleccionaron tres tomas breves por superficie y se renombraron. No se
+modificaron las grabaciones OGG. El eco subterráneo se aplica durante el juego.

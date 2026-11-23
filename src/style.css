@@ -1,9 +1,14 @@
 :root {
-  font-family: 'Segoe UI', sans-serif;
-  color: #e7dfd1;
-  background: #171b20;
+  font-family: 'Courier New', monospace;
+  color: #ffe29a;
+  background: #0d1020;
   font-synthesis: none;
   color-scheme: dark;
+}
+/* Pantalla completa de la aplicación: mismo fondo que la partida. */
+:fullscreen,
+::backdrop {
+  background: #000;
 }
 * {
   box-sizing: border-box;
@@ -11,11 +16,11 @@
 body {
   margin: 0;
   min-width: 320px;
-  background: radial-gradient(ellipse at 50% 25%, #282b2c 0%, #171b20 70%);
+  background: #0d1020;
 }
 .workspace {
-  max-width: 1042px;
-  padding: 30px 40px 20px;
+  max-width: 1528px;
+  padding: 24px 40px 20px;
   margin: auto;
 }
 .masthead,
@@ -23,120 +28,131 @@ body {
 .expedition,
 .game-caption,
 .game-footer,
-.controls,
 .page-footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 .masthead {
-  padding-bottom: 23px;
-  border-bottom: 1px solid #363a3c;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #212c48;
 }
 .brand {
-  gap: 14px;
+  gap: 16px;
 }
 .brand-mark {
-  color: #dcb47a;
-  font: 900 24px/1 monospace;
-  border: 2px solid #dcb47a;
-  padding: 5px;
-  letter-spacing: -5px;
-  padding-right: 10px;
+  color: #f4b341;
+  font:
+    900 24px/1 'Courier New',
+    monospace;
+  border: 3px solid #f4b341;
+  padding: 6px;
 }
 .brand-mark span {
-  color: #f3deac;
+  color: #ffe29a;
 }
 h1 {
-  font-size: 21px;
-  letter-spacing: 5px;
+  font-size: 24px;
+  letter-spacing: 4px;
   margin: 0;
 }
 .brand p {
-  font-size: 9px;
-  letter-spacing: 2.3px;
-  color: #92948f;
-  margin: 5px 0 0;
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: #71829a;
+  margin: 6px 0 0;
 }
 .edition,
 .eyebrow,
 .game-caption,
 .game-footer,
 .page-footer {
-  font: 10px/1.5 monospace;
+  font-size: 10px;
+  line-height: 1.5;
   letter-spacing: 1px;
 }
 .edition {
-  color: #c6a979;
-  border: 1px solid #4c463c;
-  padding: 7px 10px;
-  background: #292923;
+  color: #f4b341;
+  border: 2px solid #e08a1e;
+  padding: 6px 10px;
+  background: #15182b;
 }
 i {
   display: inline-block;
-  width: 5px;
-  height: 5px;
+  width: 6px;
+  height: 6px;
   margin-right: 7px;
-  background: #d4ac6f;
+  background: #f4b341;
   vertical-align: middle;
 }
 .expedition {
-  padding: 24px 0 20px;
+  padding: 20px 0;
+  gap: 12px;
 }
 .eyebrow {
-  color: #bc9a69;
-  font-size: 9px;
+  color: #e08a1e;
+  font-size: 10px;
 }
 h2 {
   font:
-    normal 36px/1.15 Georgia,
-    serif;
-  margin: 7px 0;
+    900 27px/1.2 'Courier New',
+    monospace;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 8px 0;
 }
 .expedition p {
   font-size: 12px;
-  color: #9d9f99;
+  color: #b4c3d3;
   margin: 0;
 }
 button {
   display: flex;
   gap: 9px;
   align-items: center;
-  border: 1px solid #4a4c46;
-  border-radius: 3px;
-  background: #252a2b;
-  color: #d3d0c3;
-  padding: 10px 12px;
+  border: 2px solid #71829a;
+  background: #15182b;
+  color: #ffe29a;
+  padding: 9px 12px;
   cursor: pointer;
   font:
-    12px 'Segoe UI',
-    sans-serif;
+    bold 12px 'Courier New',
+    monospace;
 }
 button:hover {
-  border-color: #c7a675;
-  background: #34352f;
+  border-color: #f4b341;
+  color: #f4b341;
+}
+button:active {
+  background: #212c48;
 }
 button:focus-visible,
 #game:focus-visible {
-  outline: 2px solid #f2c780;
-  outline-offset: 4px;
+  outline: 2px solid #ffe29a;
+  outline-offset: 3px;
 }
 .game-shell {
-  border: 1px solid #4b4840;
-  background: #10151b;
-  box-shadow: 0 20px 50px #0004;
+  border: 4px solid #3e4c6a;
+  background: #0d1020;
 }
 .game-caption {
   height: 32px;
-  padding: 0 13px;
-  color: #b8b4a3;
-  background: #252a2c;
-  font-size: 9px;
+  padding: 0 12px;
+  color: #ffe29a;
+  background: #15182b;
+  border-bottom: 2px solid #3e4c6a;
+  font-size: 10px;
 }
 .game-caption b,
 .game-footer b {
-  color: #665c4b;
+  color: #e08a1e;
   margin: 0 7px;
+}
+.game-viewport {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-color: #e08a1e #15182b;
 }
 #game {
   margin: auto;
@@ -145,102 +161,122 @@ button:focus-visible,
 canvas {
   display: block;
   image-rendering: pixelated;
-  image-rendering: crisp-edges;
 }
 .game-footer {
-  padding: 9px 12px;
-  min-height: 33px;
-  font-size: 9px;
-  color: #8f9994;
-  background: #202628;
-  letter-spacing: 0.5px;
+  padding: 8px 12px;
+  min-height: 34px;
+  font-size: 10px;
+  color: #b4c3d3;
+  background: #15182b;
+  border-top: 2px solid #3e4c6a;
+  letter-spacing: 0;
 }
 .game-footer i {
-  background: #8baf9e;
-}
-.controls {
-  flex-wrap: wrap;
-  gap: 20px;
-  padding: 20px 0;
-  border-bottom: 1px solid #363a3c;
-  color: #b5b8b2;
-  font-size: 11px;
-}
-.controls > div {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-}
-.controls > div > span:last-child {
-  margin-left: 5px;
+  background: #6cbf5a;
 }
 kbd {
-  font: 10px monospace;
-  color: #dad8ca;
+  font:
+    bold 11px 'Courier New',
+    monospace;
+  color: #ffe29a;
   padding: 5px 6px;
-  border: 1px solid #555950;
-  border-bottom: 2px solid #555950;
-  border-radius: 3px;
-  background: #2a3031;
+  border: 1px solid #71829a;
+  border-bottom: 3px solid #71829a;
+  background: #15182b;
 }
 button kbd {
-  font-size: 9px;
+  font-size: 10px;
   padding: 1px 4px;
 }
-.controls p {
-  margin: 0;
-  font-size: 10px;
-  line-height: 1.7;
-  color: #8e9692;
-}
-.controls strong {
-  font-weight: normal;
-  color: #c2a67a;
-}
-.mouse-icon {
-  height: 22px;
-  width: 15px;
-  border: 1px solid #a0a79b;
-  border-radius: 6px;
-  position: relative;
-}
-.mouse-icon:after {
-  content: '';
-  height: 6px;
-  border-left: 2px solid #d1ab70;
-  position: absolute;
-  left: 6px;
-  top: 3px;
-}
 .page-footer {
-  color: #767e7c;
+  color: #71829a;
   font-size: 9px;
-  padding-top: 17px;
+  padding-top: 16px;
+}
+/*
+ * Modo inmersivo (menú principal y partida): solo el lienzo, a ventana
+ * completa. Se oculta el marco de la página (cabecera, expedición con el
+ * botón «Volver a superficie», que en la partida es la tecla R, rótulos y
+ * pies) y el lienzo se centra con escala entera; lo que sobra queda como
+ * bandas del color de fondo. En ventanas más estrechas que 480 px se conserva
+ * 1× con desplazamiento dentro del contenedor, sin reducir la imagen.
+ */
+body.immersive {
+  overflow: hidden;
+}
+body.immersive .masthead,
+body.immersive .expedition,
+body.immersive .game-caption,
+body.immersive .page-footer {
+  display: none;
+}
+/* El estado del juego sigue disponible para lectores de pantalla. */
+body.immersive .game-footer {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+body.immersive .workspace {
+  max-width: none;
+  padding: 0;
+}
+body.immersive .game-shell {
+  border: 0;
+}
+body.immersive .game-viewport {
+  display: flex;
+  height: 100vh;
+  height: 100dvh;
+  overflow: auto;
+  scrollbar-width: none;
+}
+/* Partida: fondo negro alrededor del lienzo (el menú conserva el suyo). */
+body.immersive:not(.in-menu),
+body.immersive:not(.in-menu) .game-shell {
+  background: #000;
+}
+body.immersive #game:focus-visible {
+  outline: none;
 }
 @media (max-width: 680px) {
   .workspace {
-    padding: 20px 12px;
+    padding: 16px 12px;
+  }
+  .brand {
+    gap: 8px;
+  }
+  .brand-mark {
+    font-size: 18px;
+    padding: 4px;
   }
   h1 {
-    font-size: 16px;
-    letter-spacing: 3px;
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+  .brand p {
+    font-size: 8px;
+    letter-spacing: 0;
   }
   .edition {
     font-size: 8px;
-    padding: 5px;
+    padding: 4px;
+    letter-spacing: 0;
   }
   h2 {
-    font-size: 29px;
+    font-size: 22px;
+  }
+  .expedition {
+    flex-wrap: wrap;
   }
   .game-caption > span:last-child,
   .game-footer > span:last-child {
     display: none;
-  }
-  .controls {
-    gap: 14px;
-  }
-  .controls p {
-    width: 100%;
   }
   .page-footer {
     font-size: 8px;

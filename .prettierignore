@@ -15,3 +15,5 @@ dist
 package-lock.json
 test-results
 playwright-report
+public/assets/**/*.json
+art/import-report.json

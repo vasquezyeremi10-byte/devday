@@ -1,0 +1,352 @@
+{
+ "frames": {
+  "hoist_chain_hook": {
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 14,
+    "h": 90
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 14,
+    "h": 90
+   },
+   "sourceSize": {
+    "w": 14,
+    "h": 90
+   }
+  },
+  "hoist_rope_hook": {
+   "frame": {
+    "x": 15,
+    "y": 0,
+    "w": 14,
+    "h": 90
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 14,
+    "h": 90
+   },
+   "sourceSize": {
+    "w": 14,
+    "h": 90
+   }
+  },
+  "support_truss": {
+   "frame": {
+    "x": 30,
+    "y": 0,
+    "w": 18,
+    "h": 54
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 18,
+    "h": 54
+   },
+   "sourceSize": {
+    "w": 18,
+    "h": 54
+   }
+  },
+  "hazard_sign": {
+   "frame": {
+    "x": 49,
+    "y": 0,
+    "w": 16,
+    "h": 54
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 16,
+    "h": 54
+   },
+   "sourceSize": {
+    "w": 16,
+    "h": 54
+   }
+  },
+  "ladder": {
+   "frame": {
+    "x": 66,
+    "y": 0,
+    "w": 18,
+    "h": 33
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 18,
+    "h": 33
+   },
+   "sourceSize": {
+    "w": 18,
+    "h": 33
+   }
+  },
+  "tool_pickaxe": {
+   "frame": {
+    "x": 85,
+    "y": 0,
+    "w": 26,
+    "h": 32
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 26,
+    "h": 32
+   },
+   "sourceSize": {
+    "w": 26,
+    "h": 32
+   }
+  },
+  "tool_shovel": {
+   "frame": {
+    "x": 112,
+    "y": 0,
+    "w": 12,
+    "h": 32
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 12,
+    "h": 32
+   },
+   "sourceSize": {
+    "w": 12,
+    "h": 32
+   }
+  },
+  "tool_sledgehammer": {
+   "frame": {
+    "x": 125,
+    "y": 0,
+    "w": 14,
+    "h": 32
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 14,
+    "h": 32
+   },
+   "sourceSize": {
+    "w": 14,
+    "h": 32
+   }
+  },
+  "drill_jackhammer": {
+   "frame": {
+    "x": 140,
+    "y": 0,
+    "w": 22,
+    "h": 32
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 22,
+    "h": 32
+   },
+   "sourceSize": {
+    "w": 22,
+    "h": 32
+   }
+  },
+  "blast_dynamite": {
+   "frame": {
+    "x": 163,
+    "y": 0,
+    "w": 11,
+    "h": 30
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 11,
+    "h": 30
+   },
+   "sourceSize": {
+    "w": 11,
+    "h": 30
+   }
+  },
+  "rail_segment": {
+   "frame": {
+    "x": 175,
+    "y": 0,
+    "w": 22,
+    "h": 28
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 22,
+    "h": 28
+   },
+   "sourceSize": {
+    "w": 22,
+    "h": 28
+   }
+  },
+  "tool_helmet": {
+   "frame": {
+    "x": 198,
+    "y": 0,
+    "w": 29,
+    "h": 20
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 29,
+    "h": 20
+   },
+   "sourceSize": {
+    "w": 29,
+    "h": 20
+   }
+  },
+  "support_girder": {
+   "frame": {
+    "x": 0,
+    "y": 91,
+    "w": 54,
+    "h": 18
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 54,
+    "h": 18
+   },
+   "sourceSize": {
+    "w": 54,
+    "h": 18
+   }
+  },
+  "conveyor": {
+   "frame": {
+    "x": 55,
+    "y": 91,
+    "w": 54,
+    "h": 18
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 54,
+    "h": 18
+   },
+   "sourceSize": {
+    "w": 54,
+    "h": 18
+   }
+  },
+  "crate_hazard": {
+   "frame": {
+    "x": 110,
+    "y": 91,
+    "w": 18,
+    "h": 18
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 18,
+    "h": 18
+   },
+   "sourceSize": {
+    "w": 18,
+    "h": 18
+   }
+  },
+  "beacon_red": {
+   "frame": {
+    "x": 129,
+    "y": 91,
+    "w": 14,
+    "h": 13
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 14,
+    "h": 13
+   },
+   "sourceSize": {
+    "w": 14,
+    "h": 13
+   }
+  },
+  "beacon_blue": {
+   "frame": {
+    "x": 144,
+    "y": 91,
+    "w": 14,
+    "h": 13
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 14,
+    "h": 13
+   },
+   "sourceSize": {
+    "w": 14,
+    "h": 13
+   }
+  }
+ },
+ "meta": {
+  "image": "equipment.png",
+  "size": {
+   "w": 256,
+   "h": 128
+  },
+  "scale": "1"
+ }
+}

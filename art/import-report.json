@@ -1,0 +1,87 @@
+{
+ "props": [
+  "tree_poplar",
+  "door",
+  "cart_loaded",
+  "cart_empty",
+  "coal_pile",
+  "ore_pile",
+  "plant_grass",
+  "crate",
+  "sign_arrow",
+  "barrel",
+  "barrel_band",
+  "fence_a",
+  "plant_sprout",
+  "mushroom",
+  "fence_b"
+ ],
+ "equipment": [
+  "hoist_chain_hook",
+  "hoist_rope_hook",
+  "support_truss",
+  "hazard_sign",
+  "ladder",
+  "tool_pickaxe",
+  "tool_shovel",
+  "tool_sledgehammer",
+  "drill_jackhammer",
+  "blast_dynamite",
+  "rail_segment",
+  "tool_helmet",
+  "support_girder",
+  "conveyor",
+  "crate_hazard",
+  "beacon_red",
+  "beacon_blue"
+ ],
+ "minerals": {
+  "frameWidth": 16,
+  "frameHeight": 16,
+  "frames": 12
+ },
+ "veins": {
+  "frameWidth": 16,
+  "frameHeight": 16,
+  "frames": 6
+ },
+ "torch": {
+  "frameWidth": 8,
+  "frameHeight": 16,
+  "frames": 4
+ },
+ "effects": {
+  "effects/fx_pick_spark": {
+   "frameWidth": 92,
+   "frameHeight": 57,
+   "frames": 7,
+   "fps": 15,
+   "originX": 0.087,
+   "originY": 0.965
+  },
+  "effects/fx_dust": {
+   "frameWidth": 87,
+   "frameHeight": 55,
+   "frames": 12,
+   "fps": 15,
+   "originX": 0.54,
+   "originY": 0.891
+  },
+  "effects/fx_collect": {
+   "frameWidth": 70,
+   "frameHeight": 77,
+   "frames": 17,
+   "fps": 15,
+   "originX": 0.457,
+   "originY": 0.987
+  }
+ },
+ "audio": [
+  "impactMining_000",
+  "impactMining_001",
+  "impactMining_002",
+  "impactSoft_medium_000",
+  "impactSoft_medium_001",
+  "impactGlass_light_002"
+ ]
+}

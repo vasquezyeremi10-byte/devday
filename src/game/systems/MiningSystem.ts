@@ -1,6 +1,8 @@
 import { PLAYER } from '../config/constants';
+import { MINERAL_KEYS, type MineralKey } from '../config/minerals';
 import {
   Block,
+  mineralOf,
   TerrainGrid,
   type Cell,
   type Point,
@@ -11,6 +13,12 @@ export type MiningResult =
 
 export class MiningSystem {
   excavated = 0;
+  /** Hallazgos acumulados, nunca un inventario transferible ni vendible. */
+  readonly discovered: Record<MineralKey, number> = Object.fromEntries(
+    MINERAL_KEYS.map((key) => [key, 0]),
+  ) as Record<MineralKey, number>;
+  /** Último bloque retirado con éxito; lo usan los efectos visuales. */
+  lastBlock: Block = Block.Air;
   constructor(readonly grid: TerrainGrid) {}
 
   inspect(origin: Point, target: Cell): MiningResult {
@@ -39,8 +47,11 @@ export class MiningSystem {
   dig(origin: Point, target: Cell): MiningResult {
     const result = this.inspect(origin, target);
     if (result === 'ready') {
+      this.lastBlock = this.grid.get(target.column, target.row);
       this.grid.set(target.column, target.row, Block.Air);
       this.excavated++;
+      const mineral = mineralOf(this.lastBlock);
+      if (mineral) this.discovered[mineral]++;
     }
     return result;
   }

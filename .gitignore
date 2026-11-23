@@ -1,8 +1,41 @@
+# Dependencias
 node_modules/
+
+# Compilación, cobertura y cachés
 dist/
+coverage/
+.nyc_output/
+.vite/
+.cache/
+*.tsbuildinfo
+
+# Runtime portátil, descargas fuente y respaldos locales
 .tools/
+
+# Resultados de pruebas
 test-results/
 playwright-report/
+blob-report/
+
+# Variables locales y registros
 .env*
 !.env.example
 *.log
+
+# Configuración local de asistentes
+.claude/launch.json
+.claude/settings.local.json
+
+# Editores
+.vscode/
+.idea/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporales
+*.tmp
+*.bak
+*~
